@@ -1,0 +1,267 @@
+---
+- name: Create SSH Directory on deploy
+  file:
+    path: /var/lib/lxc/deploy/rootfs/root/.ssh
+    state: directory
+    owner: root
+    group: root
+    mode: 0700
+
+- name: Create SSH Directory on server01
+  file:
+    path: /var/lib/lxc/server01/rootfs/root/.ssh
+    state: directory
+    owner: root
+    group: root
+    mode: 0700
+
+- name: Create SSH Directory on server02
+  file:
+    path: /var/lib/lxc/server02/rootfs/root/.ssh
+    state: directory
+    owner: root
+    group: root
+    mode: 0700
+
+- name: Create SSH Directory on server03
+  file:
+    path: /var/lib/lxc/server03/rootfs/root/.ssh
+    state: directory
+    owner: root
+    group: root
+    mode: 0700
+
+- name: Create SSH Directory on server04
+  file:
+    path: /var/lib/lxc/server04/rootfs/root/.ssh
+    state: directory
+    owner: root
+    group: root
+    mode: 0700
+
+- name: Create SSH Directory on server05
+  file:
+    path: /var/lib/lxc/server05/rootfs/root/.ssh
+    state: directory
+    owner: root
+    group: root
+    mode: 0700
+
+- name: Create SSH Directory on server06
+  file:
+    path: /var/lib/lxc/server06/rootfs/root/.ssh
+    state: directory
+    owner: root
+    group: root
+    mode: 0700
+
+- name: Create SSH Directory on server07
+  file:
+    path: /var/lib/lxc/server07/rootfs/root/.ssh
+    state: directory
+    owner: root
+    group: root
+    mode: 0700
+
+- name: Create SSH Directory on server08
+  file:
+    path: /var/lib/lxc/server08/rootfs/root/.ssh
+    state: directory
+    owner: root
+    group: root
+    mode: 0700
+
+- name: Create SSH Directory on server09
+  file:
+    path: /var/lib/lxc/server09/rootfs/root/.ssh
+    state: directory
+    owner: root
+    group: root
+    mode: 0700
+
+- name: Create SSH Directory on server10
+  file:
+    path: /var/lib/lxc/server10/rootfs/root/.ssh
+    state: directory
+    owner: root
+    group: root
+    mode: 0700
+
+- name: Create SSH Directory on server11
+  file:
+    path: /var/lib/lxc/server11/rootfs/root/.ssh
+    state: directory
+    owner: root
+    group: root
+    mode: 0700
+
+- name: Create SSH Directory on server12
+  file:
+    path: /var/lib/lxc/server12/rootfs/root/.ssh
+    state: directory
+    owner: root
+    group: root
+    mode: 0700
+
+- name: Create SSH Directory on server13
+  file:
+    path: /var/lib/lxc/server13/rootfs/root/.ssh
+    state: directory
+    owner: root
+    group: root
+    mode: 0700
+
+- name: Create SSH Directory on server14
+  file:
+    path: /var/lib/lxc/server14/rootfs/root/.ssh
+    state: directory
+    owner: root
+    group: root
+    mode: 0700
+
+- name: Create SSH Directory on server15
+  file:
+    path: /var/lib/lxc/server15/rootfs/root/.ssh
+    state: directory
+    owner: root
+    group: root
+    mode: 0700
+
+
+
+
+- name: Copy SSH Private Key to deploy
+  copy:
+    src: ./id_rsa
+    dest: /var/lib/lxc/deploy/rootfs/root/.ssh/id_rsa
+    owner: root
+    group: root
+    mode: 0600
+
+- name: Copy SSH Public Key to deploy
+  copy:
+    src: ./id_rsa.pub
+    dest: /var/lib/lxc/deploy/rootfs/root/.ssh/id_rsa.pub
+    owner: root
+    group: root
+    mode: 0644
+
+- name: Add authorized_keys to server01
+  copy:
+    src: ./authorized_keys
+    dest: /var/lib/lxc/server01/rootfs/root/.ssh/authorized_keys
+    owner: root
+    group: root
+    mode: 0600
+
+- name: Add authorized_keys to server02
+  copy:
+    src: ./authorized_keys
+    dest: /var/lib/lxc/server02/rootfs/root/.ssh/authorized_keys
+    owner: root
+    group: root
+    mode: 0600
+
+- name: Add authorized_keys to server03
+  copy:
+    src: ./authorized_keys
+    dest: /var/lib/lxc/server03/rootfs/root/.ssh/authorized_keys
+    owner: root
+    group: root
+    mode: 0600
+
+- name: Add authorized_keys to server04
+  copy:
+    src: ./authorized_keys
+    dest: /var/lib/lxc/server04/rootfs/root/.ssh/authorized_keys
+    owner: root
+    group: root
+    mode: 0600
+
+- name: Add authorized_keys to server05
+  copy:
+    src: ./authorized_keys
+    dest: /var/lib/lxc/server05/rootfs/root/.ssh/authorized_keys
+    owner: root
+    group: root
+    mode: 0600
+
+- name: Add authorized_keys to server06
+  copy:
+    src: ./authorized_keys
+    dest: /var/lib/lxc/server06/rootfs/root/.ssh/authorized_keys
+    owner: root
+    group: root
+    mode: 0600
+
+- name: Add authorized_keys to server07
+  copy:
+    src: ./authorized_keys
+    dest: /var/lib/lxc/server07/rootfs/root/.ssh/authorized_keys
+    owner: root
+    group: root
+    mode: 0600
+
+- name: Add authorized_keys to server08
+  copy:
+    src: ./authorized_keys
+    dest: /var/lib/lxc/server08/rootfs/root/.ssh/authorized_keys
+    owner: root
+    group: root
+    mode: 0600
+
+- name: Add authorized_keys to server09
+  copy:
+    src: ./authorized_keys
+    dest: /var/lib/lxc/server09/rootfs/root/.ssh/authorized_keys
+    owner: root
+    group: root
+    mode: 0600
+
+- name: Add authorized_keys to server10
+  copy:
+    src: ./authorized_keys
+    dest: /var/lib/lxc/server10/rootfs/root/.ssh/authorized_keys
+    owner: root
+    group: root
+    mode: 0600
+
+- name: Add authorized_keys to server11
+  copy:
+    src: ./authorized_keys
+    dest: /var/lib/lxc/server11/rootfs/root/.ssh/authorized_keys
+    owner: root
+    group: root
+    mode: 0600
+
+- name: Add authorized_keys to server12
+  copy:
+    src: ./authorized_keys
+    dest: /var/lib/lxc/server12/rootfs/root/.ssh/authorized_keys
+    owner: root
+    group: root
+    mode: 0600
+
+- name: Add authorized_keys to server13
+  copy:
+    src: ./authorized_keys
+    dest: /var/lib/lxc/server13/rootfs/root/.ssh/authorized_keys
+    owner: root
+    group: root
+    mode: 0600
+
+- name: Add authorized_keys to server14
+  copy:
+    src: ./authorized_keys
+    dest: /var/lib/lxc/server14/rootfs/root/.ssh/authorized_keys
+    owner: root
+    group: root
+    mode: 0600
+
+- name: Add authorized_keys to server15
+  copy:
+    src: ./authorized_keys
+    dest: /var/lib/lxc/server15/rootfs/root/.ssh/authorized_keys
+    owner: root
+    group: root
+    mode: 0600

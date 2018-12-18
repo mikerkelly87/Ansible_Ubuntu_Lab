@@ -1,0 +1,128 @@
+---
+- name: Create The Deploy Container
+  lxc_container:
+    name: deploy
+    container_log: true
+    template: ubuntu
+    template_options: --release xenial
+    state: started
+
+- name: Create The server01 Container
+  lxc_container:
+    name: server01
+    container_log: true
+    template: ubuntu
+    template_options: --release xenial
+    state: started
+
+- name: Create The server02 Container
+  lxc_container:
+    name: server02
+    container_log: true
+    template: ubuntu
+    template_options: --release xenial
+    state: started
+
+- name: Create The server03 Container
+  lxc_container:
+    name: server03
+    container_log: true
+    template: ubuntu
+    template_options: --release xenial
+    state: started
+
+- name: Create The server04 Container
+  lxc_container:
+    name: server04
+    container_log: true
+    template: ubuntu
+    template_options: --release xenial
+    state: started
+
+- name: Create The server05 Container
+  lxc_container:
+    name: server05
+    container_log: true
+    template: ubuntu
+    template_options: --release xenial
+    state: started
+
+- name: Create The server06 Container
+  lxc_container:
+    name: server06
+    container_log: true
+    template: ubuntu
+    template_options: --release xenial
+    state: started
+
+- name: Create The server07 Container
+  lxc_container:
+    name: server07
+    container_log: true
+    template: ubuntu
+    template_options: --release xenial
+    state: started
+
+- name: Create The server08 Container
+  lxc_container:
+    name: server08
+    container_log: true
+    template: ubuntu
+    template_options: --release xenial
+    state: started
+
+- name: Create The server09 Container
+  lxc_container:
+    name: server09
+    container_log: true
+    template: ubuntu
+    template_options: --release xenial
+    state: started
+
+- name: Create The server10 Container
+  lxc_container:
+    name: server10
+    container_log: true
+    template: ubuntu
+    template_options: --release xenial
+    state: started
+
+- name: Create The server11 Container
+  lxc_container:
+    name: server11
+    container_log: true
+    template: ubuntu
+    template_options: --release xenial
+    state: started
+
+- name: Create The server12 Container
+  lxc_container:
+    name: server12
+    container_log: true
+    template: ubuntu
+    template_options: --release xenial
+    state: started
+
+- name: Create The server13 Container
+  lxc_container:
+    name: server13
+    container_log: true
+    template: ubuntu
+    template_options: --release xenial
+    state: started
+
+- name: Create The server14 Container
+  lxc_container:
+    name: server14
+    container_log: true
+    template: ubuntu
+    template_options: --release xenial
+    state: started
+
+- name: Create The server15 Container
+  lxc_container:
+    name: server15
+    container_log: true
+    template: ubuntu
+    template_options: --release xenial
+    state: started

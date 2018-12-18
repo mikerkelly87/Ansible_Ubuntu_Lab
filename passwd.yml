@@ -1,0 +1,48 @@
+---
+- name: Set A Root Password on deploy
+  shell: chroot /var/lib/lxc/deploy/rootfs/ /bin/bash -c "echo root:password123 | chpasswd"
+
+- name: Set A Root Password on server01
+  shell: chroot /var/lib/lxc/server01/rootfs/ /bin/bash -c "echo root:password123 | chpasswd"
+
+- name: Set A Root Password on server02
+  shell: chroot /var/lib/lxc/server02/rootfs/ /bin/bash -c "echo root:password123 | chpasswd"
+
+- name: Set A Root Password on server03
+  shell: chroot /var/lib/lxc/server03/rootfs/ /bin/bash -c "echo root:password123 | chpasswd"
+
+- name: Set A Root Password on server04
+  shell: chroot /var/lib/lxc/server04/rootfs/ /bin/bash -c "echo root:password123 | chpasswd"
+
+- name: Set A Root Password on server05
+  shell: chroot /var/lib/lxc/server05/rootfs/ /bin/bash -c "echo root:password123 | chpasswd"
+
+- name: Set A Root Password on server06
+  shell: chroot /var/lib/lxc/server06/rootfs/ /bin/bash -c "echo root:password123 | chpasswd"
+
+- name: Set A Root Password on server07
+  shell: chroot /var/lib/lxc/server07/rootfs/ /bin/bash -c "echo root:password123 | chpasswd"
+
+- name: Set A Root Password on server08
+  shell: chroot /var/lib/lxc/server08/rootfs/ /bin/bash -c "echo root:password123 | chpasswd"
+
+- name: Set A Root Password on server09
+  shell: chroot /var/lib/lxc/server09/rootfs/ /bin/bash -c "echo root:password123 | chpasswd"
+
+- name: Set A Root Password on server10
+  shell: chroot /var/lib/lxc/server10/rootfs/ /bin/bash -c "echo root:password123 | chpasswd"
+
+- name: Set A Root Password on server11
+  shell: chroot /var/lib/lxc/server11/rootfs/ /bin/bash -c "echo root:password123 | chpasswd"
+
+- name: Set A Root Password on server12
+  shell: chroot /var/lib/lxc/server12/rootfs/ /bin/bash -c "echo root:password123 | chpasswd"
+
+- name: Set A Root Password on server13
+  shell: chroot /var/lib/lxc/server13/rootfs/ /bin/bash -c "echo root:password123 | chpasswd"
+
+- name: Set A Root Password on server14
+  shell: chroot /var/lib/lxc/server14/rootfs/ /bin/bash -c "echo root:password123 | chpasswd"
+
+- name: Set A Root Password on server15
+  shell: chroot /var/lib/lxc/server15/rootfs/ /bin/bash -c "echo root:password123 | chpasswd"

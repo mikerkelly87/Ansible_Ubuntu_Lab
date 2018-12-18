@@ -1,0 +1,49 @@
+---
+- name: Install Python on Deploy
+  shell: chroot /var/lib/lxc/deploy/rootfs/ /bin/bash -c "apt update && apt install -y python"
+
+- name: Install Python on Server01
+  shell: chroot /var/lib/lxc/server01/rootfs/ /bin/bash -c "apt update && apt install -y python"
+
+- name: Install Python on Server02
+  shell: chroot /var/lib/lxc/server02/rootfs/ /bin/bash -c "apt update && apt install -y python"
+
+- name: Install Python on Server03
+  shell: chroot /var/lib/lxc/server03/rootfs/ /bin/bash -c "apt update && apt install -y python"
+
+- name: Install Python on Server04
+  shell: chroot /var/lib/lxc/server04/rootfs/ /bin/bash -c "apt update && apt install -y python"
+
+- name: Install Python on Server05
+  shell: chroot /var/lib/lxc/server05/rootfs/ /bin/bash -c "apt update && apt install -y python"
+
+- name: Install Python on Server06
+  shell: chroot /var/lib/lxc/server06/rootfs/ /bin/bash -c "apt update && apt install -y python"
+
+- name: Install Python on Server07
+  shell: chroot /var/lib/lxc/server07/rootfs/ /bin/bash -c "apt update && apt install -y python"
+
+- name: Install Python on Server08
+  shell: chroot /var/lib/lxc/server08/rootfs/ /bin/bash -c "apt update && apt install -y python"
+
+- name: Install Python on Server09
+  shell: chroot /var/lib/lxc/server09/rootfs/ /bin/bash -c "apt update && apt install -y python"
+
+- name: Install Python on Server10
+  shell: chroot /var/lib/lxc/server10/rootfs/ /bin/bash -c "apt update && apt install -y python"
+
+- name: Install Python on Server11
+  shell: chroot /var/lib/lxc/server11/rootfs/ /bin/bash -c "apt update && apt install -y python"
+
+- name: Install Python on Server12
+  shell: chroot /var/lib/lxc/server12/rootfs/ /bin/bash -c "apt update && apt install -y python"
+
+- name: Install Python on Server13
+  shell: chroot /var/lib/lxc/server13/rootfs/ /bin/bash -c "apt update && apt install -y python"
+
+- name: Install Python on Server14
+  shell: chroot /var/lib/lxc/server14/rootfs/ /bin/bash -c "apt update && apt install -y python"
+
+- name: Install Python on Server15
+  shell: chroot /var/lib/lxc/server15/rootfs/ /bin/bash -c "apt update && apt install -y python"
+

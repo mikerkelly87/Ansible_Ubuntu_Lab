@@ -1,0 +1,80 @@
+---
+- name: Restart deploy container
+  lxc_container:
+    name: deploy
+    state: restarted
+
+- name: Restart server01 container
+  lxc_container:
+    name: server01
+    state: restarted
+
+- name: Restart server02 container
+  lxc_container:
+    name: server02
+    state: restarted
+
+- name: Restart server03 container
+  lxc_container:
+    name: server03
+    state: restarted
+
+- name: Restart server04 container
+  lxc_container:
+    name: server04
+    state: restarted
+
+- name: Restart server05 container
+  lxc_container:
+    name: server05
+    state: restarted
+
+- name: Restart server06 container
+  lxc_container:
+    name: server06
+    state: restarted
+
+- name: Restart server07 container
+  lxc_container:
+    name: server07
+    state: restarted
+
+- name: Restart server08 container
+  lxc_container:
+    name: server08
+    state: restarted
+
+- name: Restart server09 container
+  lxc_container:
+    name: server09
+    state: restarted
+
+- name: Restart server10 container
+  lxc_container:
+    name: server10
+    state: restarted
+
+- name: Restart server11 container
+  lxc_container:
+    name: server11
+    state: restarted
+
+- name: Restart server12 container
+  lxc_container:
+    name: server12
+    state: restarted
+
+- name: Restart server13 container
+  lxc_container:
+    name: server13
+    state: restarted
+
+- name: Restart server14 container
+  lxc_container:
+    name: server14
+    state: restarted
+
+- name: Restart server15 container
+  lxc_container:
+    name: server15
+    state: restarted

@@ -1,0 +1,13 @@
+---
+- hosts: localhost
+  tasks:
+  - include_tasks: install_packages.yml
+  - include_tasks: create_containers.yml
+  - include_tasks: setup_network.yml
+  - include_tasks: restart_containers.yml
+  - include_tasks: ssh_keys.yml
+  - include_tasks: passwd.yml
+  - include_tasks: hosts_file.yml
+  - include_tasks: python_install.yml
+  - include_tasks: install_ansible.yml
+  - include_tasks: setup_inventory.yml

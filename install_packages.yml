@@ -1,0 +1,24 @@
+---
+- name: Install pip
+  apt:
+    name: python-pip
+    update_cache: yes
+
+- name: Install LXC Dev Package
+  apt:
+    name: lxc-dev
+    update_cache: yes
+
+- name: Install LXC pip module
+  pip:
+    name: lxc-python2
+
+- name: Install LXC CLI Tools
+  apt:
+    name: lxc1
+    update_cache: yes
+
+- name: Install yum
+  apt:
+    name: yum
+    update_cache: yes

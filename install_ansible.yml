@@ -1,0 +1,9 @@
+---
+- name: Install repo add command
+  shell: chroot /var/lib/lxc/deploy/rootfs/ /bin/bash -c "apt install -y software-properties-common"
+
+- name: Add Ansible Repo
+  shell: chroot /var/lib/lxc/deploy/rootfs/ /bin/bash -c "add-apt-repository ppa:ansible/ansible -y"
+
+- name: Install Ansible
+  shell: chroot /var/lib/lxc/deploy/rootfs/ /bin/bash -c "apt update && apt install -y ansible"

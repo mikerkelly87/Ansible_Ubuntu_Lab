@@ -1,0 +1,75 @@
+---
+- name: Add server01 to deploy Hosts File
+  lineinfile:
+    path: /var/lib/lxc/deploy/rootfs/etc/hosts
+    line: '10.0.3.101 server01'
+
+- name: Add server02 to deploy Hosts File
+  lineinfile:
+    path: /var/lib/lxc/deploy/rootfs/etc/hosts
+    line: '10.0.3.102 server02'
+
+- name: Add server03 to deploy Hosts File
+  lineinfile:
+    path: /var/lib/lxc/deploy/rootfs/etc/hosts
+    line: '10.0.3.103 server03'
+
+- name: Add server04 to deploy Hosts File
+  lineinfile:
+    path: /var/lib/lxc/deploy/rootfs/etc/hosts
+    line: '10.0.3.104 server04'
+
+- name: Add server05 to deploy Hosts File
+  lineinfile:
+    path: /var/lib/lxc/deploy/rootfs/etc/hosts
+    line: '10.0.3.105 server05'
+
+- name: Add server06 to deploy Hosts File
+  lineinfile:
+    path: /var/lib/lxc/deploy/rootfs/etc/hosts
+    line: '10.0.3.106 server06'
+
+- name: Add server07 to deploy Hosts File
+  lineinfile:
+    path: /var/lib/lxc/deploy/rootfs/etc/hosts
+    line: '10.0.3.107 server07'
+
+- name: Add server08 to deploy Hosts File
+  lineinfile:
+    path: /var/lib/lxc/deploy/rootfs/etc/hosts
+    line: '10.0.3.108 server08'
+
+- name: Add server09 to deploy Hosts File
+  lineinfile:
+    path: /var/lib/lxc/deploy/rootfs/etc/hosts
+    line: '10.0.3.109 server09'
+
+- name: Add server10 to deploy Hosts File
+  lineinfile:
+    path: /var/lib/lxc/deploy/rootfs/etc/hosts
+    line: '10.0.3.110 server10'
+
+- name: Add server11 to deploy Hosts File
+  lineinfile:
+    path: /var/lib/lxc/deploy/rootfs/etc/hosts
+    line: '10.0.3.111 server11'
+
+- name: Add server12 to deploy Hosts File
+  lineinfile:
+    path: /var/lib/lxc/deploy/rootfs/etc/hosts
+    line: '10.0.3.112 server12'
+
+- name: Add server13 to deploy Hosts File
+  lineinfile:
+    path: /var/lib/lxc/deploy/rootfs/etc/hosts
+    line: '10.0.3.113 server13'
+
+- name: Add server14 to deploy Hosts File
+  lineinfile:
+    path: /var/lib/lxc/deploy/rootfs/etc/hosts
+    line: '10.0.3.114 server14'
+
+- name: Add server15 to deploy Hosts File
+  lineinfile:
+    path: /var/lib/lxc/deploy/rootfs/etc/hosts
+    line: '10.0.3.115 server15'

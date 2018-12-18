@@ -1,0 +1,80 @@
+---
+- name: Add servers group to Ansible inventory on deploy
+  lineinfile:
+    path: /var/lib/lxc/deploy/rootfs/etc/ansible/hosts
+    line: '[servers]'
+
+- name: Add server01 to Ansible inventory on deploy
+  lineinfile:
+    path: /var/lib/lxc/deploy/rootfs/etc/ansible/hosts
+    line: "server01 ansible_ssh_extra_args='-o StrictHostKeyChecking=no'"
+
+- name: Add server02 to Ansible inventory on deploy
+  lineinfile:
+    path: /var/lib/lxc/deploy/rootfs/etc/ansible/hosts
+    line: "server02 ansible_ssh_extra_args='-o StrictHostKeyChecking=no'"
+
+- name: Add server03 to Ansible inventory on deploy
+  lineinfile:
+    path: /var/lib/lxc/deploy/rootfs/etc/ansible/hosts
+    line: "server03 ansible_ssh_extra_args='-o StrictHostKeyChecking=no'"
+
+- name: Add server04 to Ansible inventory on deploy
+  lineinfile:
+    path: /var/lib/lxc/deploy/rootfs/etc/ansible/hosts
+    line: "server04 ansible_ssh_extra_args='-o StrictHostKeyChecking=no'"
+
+- name: Add server05 to Ansible inventory on deploy
+  lineinfile:
+    path: /var/lib/lxc/deploy/rootfs/etc/ansible/hosts
+    line: "server05 ansible_ssh_extra_args='-o StrictHostKeyChecking=no'"
+
+- name: Add server06 to Ansible inventory on deploy
+  lineinfile:
+    path: /var/lib/lxc/deploy/rootfs/etc/ansible/hosts
+    line: "server06 ansible_ssh_extra_args='-o StrictHostKeyChecking=no'"
+
+- name: Add server07 to Ansible inventory on deploy
+  lineinfile:
+    path: /var/lib/lxc/deploy/rootfs/etc/ansible/hosts
+    line: "server07 ansible_ssh_extra_args='-o StrictHostKeyChecking=no'"
+
+- name: Add server08 to Ansible inventory on deploy
+  lineinfile:
+    path: /var/lib/lxc/deploy/rootfs/etc/ansible/hosts
+    line: "server08 ansible_ssh_extra_args='-o StrictHostKeyChecking=no'"
+
+- name: Add server09 to Ansible inventory on deploy
+  lineinfile:
+    path: /var/lib/lxc/deploy/rootfs/etc/ansible/hosts
+    line: "server09 ansible_ssh_extra_args='-o StrictHostKeyChecking=no'"
+
+- name: Add server10 to Ansible inventory on deploy
+  lineinfile:
+    path: /var/lib/lxc/deploy/rootfs/etc/ansible/hosts
+    line: "server10 ansible_ssh_extra_args='-o StrictHostKeyChecking=no'"
+
+- name: Add server11 to Ansible inventory on deploy
+  lineinfile:
+    path: /var/lib/lxc/deploy/rootfs/etc/ansible/hosts
+    line: "server11 ansible_ssh_extra_args='-o StrictHostKeyChecking=no'"
+
+- name: Add server12 to Ansible inventory on deploy
+  lineinfile:
+    path: /var/lib/lxc/deploy/rootfs/etc/ansible/hosts
+    line: "server12 ansible_ssh_extra_args='-o StrictHostKeyChecking=no'"
+
+- name: Add server13 to Ansible inventory on deploy
+  lineinfile:
+    path: /var/lib/lxc/deploy/rootfs/etc/ansible/hosts
+    line: "server13 ansible_ssh_extra_args='-o StrictHostKeyChecking=no'"
+
+- name: Add server14 to Ansible inventory on deploy
+  lineinfile:
+    path: /var/lib/lxc/deploy/rootfs/etc/ansible/hosts
+    line: "server14 ansible_ssh_extra_args='-o StrictHostKeyChecking=no'"
+
+- name: Add server15 to Ansible inventory on deploy
+  lineinfile:
+    path: /var/lib/lxc/deploy/rootfs/etc/ansible/hosts
+    line: "server15 ansible_ssh_extra_args='-o StrictHostKeyChecking=no'"

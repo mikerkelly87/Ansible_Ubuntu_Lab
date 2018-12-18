@@ -1,0 +1,112 @@
+---
+- name: Setup The deploy network Script
+  vars:
+    ipaddr: 10.0.3.100
+  template:
+    src: ./interfaces.j2
+    dest: /var/lib/lxc/deploy/rootfs/etc/network/interfaces
+
+- name: Setup The server01 network Script
+  vars:
+    ipaddr: 10.0.3.101
+  template:
+    src: ./interfaces.j2
+    dest: /var/lib/lxc/server01/rootfs/etc/network/interfaces
+
+- name: Setup The server02 network Script
+  vars:
+    ipaddr: 10.0.3.102
+  template:
+    src: ./interfaces.j2
+    dest: /var/lib/lxc/server02/rootfs/etc/network/interfaces
+
+- name: Setup The server03 network Script
+  vars:
+    ipaddr: 10.0.3.103
+  template:
+    src: ./interfaces.j2
+    dest: /var/lib/lxc/server03/rootfs/etc/network/interfaces
+
+- name: Setup The server04 network Script
+  vars:
+    ipaddr: 10.0.3.104
+  template:
+    src: ./interfaces.j2
+    dest: /var/lib/lxc/server04/rootfs/etc/network/interfaces
+
+- name: Setup The server05 network Script
+  vars:
+    ipaddr: 10.0.3.105
+  template:
+    src: ./interfaces.j2
+    dest: /var/lib/lxc/server05/rootfs/etc/network/interfaces
+
+- name: Setup The server06 network Script
+  vars:
+    ipaddr: 10.0.3.106
+  template:
+    src: ./interfaces.j2
+    dest: /var/lib/lxc/server06/rootfs/etc/network/interfaces
+
+- name: Setup The server07 network Script
+  vars:
+    ipaddr: 10.0.3.107
+  template:
+    src: ./interfaces.j2
+    dest: /var/lib/lxc/server07/rootfs/etc/network/interfaces
+
+- name: Setup The server08 network Script
+  vars:
+    ipaddr: 10.0.3.108
+  template:
+    src: ./interfaces.j2
+    dest: /var/lib/lxc/server08/rootfs/etc/network/interfaces
+
+- name: Setup The server09 network Script
+  vars:
+    ipaddr: 10.0.3.109
+  template:
+    src: ./interfaces.j2
+    dest: /var/lib/lxc/server09/rootfs/etc/network/interfaces
+
+- name: Setup The server10 network Script
+  vars:
+    ipaddr: 10.0.3.110
+  template:
+    src: ./interfaces.j2
+    dest: /var/lib/lxc/server10/rootfs/etc/network/interfaces
+
+- name: Setup The server11 network Script
+  vars:
+    ipaddr: 10.0.3.111
+  template:
+    src: ./interfaces.j2
+    dest: /var/lib/lxc/server11/rootfs/etc/network/interfaces
+
+- name: Setup The server12 network Script
+  vars:
+    ipaddr: 10.0.3.112
+  template:
+    src: ./interfaces.j2
+    dest: /var/lib/lxc/server12/rootfs/etc/network/interfaces
+
+- name: Setup The server13 network Script
+  vars:
+    ipaddr: 10.0.3.113
+  template:
+    src: ./interfaces.j2
+    dest: /var/lib/lxc/server13/rootfs/etc/network/interfaces
+
+- name: Setup The server14 network Script
+  vars:
+    ipaddr: 10.0.3.114
+  template:
+    src: ./interfaces.j2
+    dest: /var/lib/lxc/server14/rootfs/etc/network/interfaces
+
+- name: Setup The server15 network Script
+  vars:
+    ipaddr: 10.0.3.115
+  template:
+    src: ./interfaces.j2
+    dest: /var/lib/lxc/server15/rootfs/etc/network/interfaces
